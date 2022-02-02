@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link menu__list-link--active" href="#">HOME</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">SHOP</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">PAGE</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">BLOG</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#user"></use>
+            </svg>
+          </a>
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#heart"></use>
+            </svg>
+            <span class="user-nav__num">3</span>
+          </a>
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#cart"></use>
+            </svg>
+            <span class="user-nav__num">7</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top">
+      <div class="top__container" style="background-image: url('images/top-bg.jpg');">
+        <div class="container">
+          <h2 class="top__title title">REGISTER</h2>
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Home</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Log in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal">
+      <div class="container">
+        <div class="modal__links">
+          <a class="modal__link modal__link--active" href="#">REGISTER</a>
+          <a class="modal__link" href="#">LOGIN</a>
+        </div>
+        <form class="modal__form" action="#">
+          <label class="modal__label">
+            Username or email address*
+            <input class="modal__input" type="text" required> 
+          </label>
+          <label class="modal__label">
+            Password*
+            <input class="modal__input" type="password" required>
+          </label>
+          <p class="modal__text">A password will be sent to your email address.
+          </p>
+          <p class="modal__text">
+            Your personal data will be used to support your experience throughout this website, to manage access to your account,
+            and for other purposes described in our privacy policy.
+          </p>
+          <label class="modal__label">
+            <input type="checkbox">
+            Agree with Terms & Conditions
+          </label>
+          <button class="modal__btn" type="submit">LOG IN</button>
+          <a class="modal__error" href="#">Lost your password?</a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-top__item footer-top__contact">
+          <a class="logo footer-top__logo" href="#">
+            <img class="logo__img" src="images/logo.png" alt="logo">
+          </a>
+          <a class="footer-top__address" href="#">
+            No. 342 - London Oxford Street,
+          012 United States
+        </a>
+          <a class="footer-top__email" href="mailto:Youremail@gmail.com">Youremail@gmail.com</a>
+          <a class="footer-top__phone" href="tel:+02838388393">+0283 838 8393</a>
+          <ul class="footer-top__social-list">
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#google"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">Useful Links</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">About Us</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Terms & Conditions</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Contact Us</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Help & Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">My Account</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My Account</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My Cart</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My WIshlist</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Registration</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Check Out</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__item-form">
+          <h6 class="footer-top__title">Subscribe Our Newsletter</h6>
+          <p class="footer-top__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Quis ipsum suspendisse ultrices gravida.
+          </p>
+          <form class="footer-top__form" action="#">
+            <input class="footer-top__form-input" type="email" placeholder="Your email address" required>
+            <button class="footer-top__form-btn" type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">
+          © 2019 CodeAstrology. All Rights Reserved.
+        </p>
+        <div class="footer-bottom__accept">
+          We Accept
+          <img class="footer-bottom__accept-img" src="images/icons/mastercard.png" alt="mastercard">
+          <img class="footer-bottom__accept-img" src="images/icons/visa.png" alt="visa">
+          <img class="footer-bottom__accept-img" src="images/icons/paypal.png" alt="paypal">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
