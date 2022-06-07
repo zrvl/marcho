@@ -26,12 +26,14 @@ $bg: #f6f6f6;
 %btn{
   padding: 12px 26px;
   text-transform: uppercase;
+  cursor: pointer;
   color: #fff;
   background-color: $accent;
   @extend %roboto-400;
   box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
 }
-%checkbox-hidden{
+%checkbox-hidden,
+%radio-hidden{
   width: 1px;
   height: 1px;
   overflow: hidden;

@@ -1,5 +1,17 @@
 $(function() {
 
+  $('.product-tabs__top-item').on('click', function(e){
+    e.preventDefault();
+    $('.product-tabs__top-item').removeClass('product-tabs__top-item--active');
+    $(this).addClass('product-tabs__top-item--active');
+
+    $('.product-tabs__content-item').removeClass('product-tabs__content-item--active');
+    $($(this).attr('href')).addClass('product-tabs__content-item--active');
+  })
+
+
+
+
   $('.shop-content__filter-btn').on('click', function(){
     $('.shop-content__filter-btn').removeClass('shop-content__filter-btn--grid');
     $(this).addClass('shop-content__filter-btn--grid')
@@ -13,12 +25,20 @@ $(function() {
     $('.product-item').removeClass('product-item--list')
   });
 
-
-
-
-
-
-
+  $('.product-slide__thumb').slick({
+    asNavFor: '.product-slide__big',
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    focusOnSelect: true,
+    vertical: true,
+    draggable: false
+  });
+  $('.product-slide__big').slick({
+    asNavFor: '.product-slide__thumb',
+    arrows: false,
+    fade: true,
+    draggable: false,
+  });
 
   $('.top-slider__inner').slick({
     dots: true,
@@ -28,7 +48,7 @@ $(function() {
     autoplaySpeed: 2000,
   });
 
-  $('.select-style').styler();
+  $('.select-style, .product-one__num').styler();
 
   $('.star').rateYo({
     starWidth: "17px",

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link menu__list-link--active" href="#">HOME</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">SHOP</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">PAGE</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">BLOG</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#user"></use>
+            </svg>
+          </a>
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#heart"></use>
+            </svg>
+            <span class="user-nav__num">3</span>
+          </a>
+          <a class="user-nav__link" href="#">
+            <svg class="user-nav__link-img">
+              <use xlink:href="images/sprite.svg#cart"></use>
+            </svg>
+            <span class="user-nav__num">7</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top">
+      <div class="top__container" style="background-image: url('images/top-bg.jpg');">
+        <div class="container">
+          <h2 class="top__title title">product</h2>
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Home</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Product</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-page">
+      <div class="container">
+        <div class="product-one">
+          <div class="product-one__inner">
+            <div class="product-one__slide product-slide">
+              <div class="product-slide__thumb">
+                <div class="product-slide__thumb-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+                <div class="product-slide__thumb-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+                <div class="product-slide__thumb-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+                <div class="product-slide__thumb-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+              </div>
+              <div class="product-slide__big">
+                <div class="product-slide__big-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+                <div class="product-slide__big-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+                <div class="product-slide__big-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+                <div class="product-slide__big-item">
+                  <img src="images/content/product/item/1.jpg" alt="product image">
+                </div>
+              </div>
+            </div>
+            <div class="product-one__content">
+              <h2 class="product-one__title">Emboossed Packet Backpack</h2>
+              <div class="product-one__box">
+                <div class="product-one__price">
+                  <div class="product-one__price-new">$19.00</div>
+                  <div class="product-one__price-old">(29.00)</div>
+                </div>
+                <div class="product-one__star">
+                  <div class="star" data-rateyo-rating="4"></div>
+                  <span>(22)</span>
+                </div>
+              </div>
+                <p class="product-one__text">
+                  <span>Review:</span>
+                  Lorem ipsum dolor sit amet, consectetur adipscg elit, sed do eiusmod tempor incididunt ut laborea et dolore magna alqua.
+                  Quis ipsum suspendssem moa ultrices gravida.
+                </p>
+                <form class="product-one__form product-filter" action="#">
+                  <div class="product-filter__color">
+                    <div class="product-filter__color-title">
+                      Color:
+                    </div>
+                      <label>
+                        <input class="product-filter__color-input" type="radio" name="color">
+                        <span class="product-filter__color-checkbox">
+                          <span style="background-color: rgb(244, 154, 193);"></span>
+                        </span>
+                      </label>
+                      <label>
+                        <input class="product-filter__color-input" type="radio" name="color">
+                        <span class="product-filter__color-checkbox">
+                          <span style="background-color: rgb(229, 228, 225);"></span>
+                        </span>
+                      </label>
+                      <label>
+                        <input class="product-filter__color-input" type="radio" name="color">
+                        <span class="product-filter__color-checkbox">
+                          <span style="background-color: rgb(255, 188, 65);"></span>
+                        </span>
+                      </label>
+                      <label>
+                        <input class="product-filter__color-input" type="radio" name="color">
+                        <span class="product-filter__color-checkbox">
+                          <span style="background-color: rgb(179, 112, 255);"></span>
+                        </span>
+                      </label>
+                      <label>
+                        <input class="product-filter__color-input" type="radio" name="color">
+                        <span class="product-filter__color-checkbox">
+                          <span style="background-color: rgb(111, 223, 158);"></span>
+                        </span>
+                      </label>
+                      <label>
+                        <input class="product-filter__color-input" type="radio" name="color">
+                        <span class="product-filter__color-checkbox">
+                          <span style="background-color: rgb(255, 96, 96);"></span>
+                        </span>
+                      </label>
+                    
+                  </div>
+                  <div class="product-filter__size">
+                    <div class="product-filter__size-title">
+                      Size:
+                    </div>
+                      <label>
+                        <input class="product-filter__size-input" type="checkbox">
+                        <span class="product-filter__size-checkbox">S</span>
+                      </label>
+                      <label>
+                        <input class="product-filter__size-input" type="checkbox">
+                        <span class="product-filter__size-checkbox">M</span>
+                      </label>
+                      <label>
+                        <input class="product-filter__size-input" type="checkbox">
+                        <span class="product-filter__size-checkbox">L</span>
+                      </label>
+                      <label>
+                        <input class="product-filter__size-input" type="checkbox">
+                        <span class="product-filter__size-checkbox">XS</span>
+                      </label>
+                      <label>
+                        <input class="product-filter__size-input" type="checkbox">
+                        <span class="product-filter__size-checkbox">XL</span>
+                      </label>
+                      <label>
+                        <input class="product-filter__size-input" type="checkbox">
+                        <span class="product-filter__size-checkbox">XXL</span>
+                      </label>
+                    
+                  </div>
+                  <div class="product-one__info product-info">
+                    <ul class="product-info__list">
+                      <li class="product-info__item">
+                        <div class="product-info__title">SKU</div>
+                        <div class="product-info__text">11FSE7739</div>
+                      </li>
+                      <li class="product-info__item">
+                        <div class="product-info__title">Categories</div>
+                        <div class="product-info__text">Woman</div>
+                      </li>
+                      <li class="product-info__item">
+                        <div class="product-info__title">Tags</div>
+                        <div class="product-info__text">
+                          <a href="#">Fashion</a> |
+                          <a href="#">Women</a> |
+                          <a href="#">Sale</a>
+                        </div>
+                      </li>
+                      <li class="product-info__item">
+                        <div class="product-info__title">Share</div>
+                        <div class="product-info__text">
+                          <a class="footer-top__social-link product-info__link" href="#">
+                            <svg class="user-nav__link-img">
+                              <use xlink:href="images/sprite.svg#facebook"></use>
+                            </svg>
+                          </a>
+                          <a class="footer-top__social-link product-info__link" href="#">
+                            <svg class="user-nav__link-img">
+                              <use xlink:href="images/sprite.svg#twitter"></use>
+                            </svg>
+                          </a>
+                          <a class="footer-top__social-link product-info__link" href="#">
+                            <svg class="user-nav__link-img">
+                              <use xlink:href="images/sprite.svg#inst"></use>
+                            </svg>
+                          </a>
+                          <a class="footer-top__social-link product-info__link" href="#">
+                            <svg class="user-nav__link-img">
+                              <use xlink:href="images/sprite.svg#pinterest"></use>
+                            </svg>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <input class="product-one__num" type="number" value="1" min="1">
+                  <button class="product-one__btn" type="submit">Add to cart</button>
+                </form>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="product-tabs">
+          <div class="product-tabs__top">
+            <a class="product-tabs__top-item product-tabs__top-item--active" href="#tab-1">Description</a>
+            <a class="product-tabs__top-item" href="#tab-2">Additional information</a>
+            <a class="product-tabs__top-item" href="#tab-3">Reviews</a>
+          </div>
+          <div class="product-tabs__content">
+            <div class="product-tabs__content-item product-tabs__content-item--active" id="tab-1">
+              content 1
+            </div>
+            <div class="product-tabs__content-item" id="tab-2">
+              content 2
+            </div>
+            <div class="product-tabs__content-item" id="tab-3">
+              <div class="comments">
+                <img class="comments__img" src="images/avatar/1.jpg" alt="avatar">
+                <div class="comments__content">
+                  <div class="comments__content-top">
+                    <p class="comments__content-name">Michle Jhon</p>
+                    <p class="comments__content-date">2 days ago</p>
+                    <div class="star comments__content-star" data-rateyo-rating="4"></div>
+                  </div>
+                  <p class="comments__content-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quibusdam expedita omnis a, reiciendis aliquam modi porro impedit ipsa consequuntur incidunt minima saepe, consectetur temporibus, aspernatur accusamus quos sed eius.
+                  </p>
+                  <a class="comments__content-reply" href="#">Reply</a>
+                </div>
+              </div>
+              <div class="comments">
+                <img class="comments__img" src="images/avatar/2.jpg" alt="avatar">
+                <div class="comments__content">
+                  <div class="comments__content-top">
+                    <p class="comments__content-name">Michle Jhon</p>
+                    <p class="comments__content-date">2 days ago</p>
+                    <div class="star comments__content-star" data-rateyo-rating="4"></div>
+                  </div>
+                  <p class="comments__content-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quibusdam expedita omnis a, reiciendis aliquam modi porro impedit ipsa consequuntur incidunt minima saepe, consectetur temporibus, aspernatur accusamus quos sed eius.
+                  </p>
+                  <a class="comments__content-reply" href="#">Reply</a>
+                </div>
+              </div>
+              <div class="comments">
+                <img class="comments__img" src="images/avatar/3.jpg" alt="avatar">
+                <div class="comments__content">
+                  <div class="comments__content-top">
+                    <p class="comments__content-name">Michle Jhon</p>
+                    <p class="comments__content-date">2 days ago</p>
+                    <div class="star comments__content-star" data-rateyo-rating="4"></div>
+                  </div>
+                  <p class="comments__content-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quibusdam expedita omnis a, reiciendis aliquam modi porro impedit ipsa consequuntur incidunt minima saepe, consectetur temporibus, aspernatur accusamus quos sed eius.
+                  </p>
+                  <a class="comments__content-reply" href="#">Reply</a>
+                </div>
+              </div>
+              <form class="comments-form action">
+                <p class="comments-form__title">Add your review</p>
+                <div class="comments-form__rating">
+                  <span class="comments-form__rating-title">Your Rating</span>
+                  <label class="comments-form__label">
+                    <input class="comments-form__input" type="radio" name="star">
+                    <span class="comments-form__radio">
+                      <svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg>
+                    </span>
+                  </label>
+                  <label class="comments-form__label">
+                    <input class="comments-form__input" type="radio" name="star">
+                    <span class="comments-form__radio">
+                      <svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg>
+                    </span>
+                  </label>
+                  <label class="comments-form__label">
+                    <input class="comments-form__input" type="radio" name="star">
+                    <span class="comments-form__radio">
+                      <svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg>
+                    </span>
+                  </label>
+                  <label class="comments-form__label">
+                    <input class="comments-form__input" type="radio" name="star">
+                    <span class="comments-form__radio">
+                      <svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg>
+                    </span>
+                  </label>
+                  <label class="comments-form__label">
+                    <input class="comments-form__input" type="radio" name="star" checked>
+                    <span class="comments-form__radio">
+                      <svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg><svg class="comments-form__radio-star">
+                        <use xlink:href="images/sprite.svg#star-solid"></use>
+                      </svg>
+                    </span>
+                  </label>
+                </div>
+                <div class="comments-form__box-input">
+                  <input class="comments-form__text-input" type="text" placeholder="Your name">
+                  <input class="comments-form__text-input" type="text" placeholder="E-mail address">
+                </div>
+                <textarea class="comments-form__textarea" placeholder="Your text here"></textarea>
+                <button class="comments-form__btn" type="submit">Leave review</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="related">
+      <div class="container">
+      <h3 class="title related__title">RELATED PRODUCTS</h3>
+      <div class="related__items">
+        <div class="product-item">
+          <div class="product-item__img-box">
+            <img class="product-item__images" src="images/content/product/1.jpg" alt="product">
+          </div>
+          <div class="product-item__wrapper-box">
+            <div class="product-item__box">
+              <div class="star" data-rateyo-rating="4"></div>
+              <h4 class="product-item__title">White Polo Men’s T-Shirt</h4>
+              <div class="product-item__price">
+                <div class="product-item__new-price">$34.00</div>
+                <div class="product-item__old-price">$27.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-item__img-box">
+            <img class="product-item__images" src="images/content/product/2.jpg" alt="product">
+          </div>
+          <div class="product-item__wrapper-box">
+            <div class="product-item__box">
+              <div class="star" data-rateyo-rating="4"></div>
+              <h4 class="product-item__title">White Polo Men’s T-Shirt</h4>
+              <div class="product-item__price">
+                <div class="product-item__new-price">$34.00</div>
+                <div class="product-item__old-price">$27.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-item__img-box">
+            <img class="product-item__images" src="images/content/product/3.jpg" alt="product">
+          </div>
+          <div class="product-item__wrapper-box">
+            <div class="product-item__box">
+              <div class="star" data-rateyo-rating="4"></div>
+              <h4 class="product-item__title">White Polo Men’s T-Shirt</h4>
+              <div class="product-item__price">
+                <div class="product-item__new-price">$34.00</div>
+                <div class="product-item__old-price">$27.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-item__img-box">
+            <img class="product-item__images" src="images/content/product/4.jpg" alt="product">
+          </div>
+          <div class="product-item__wrapper-box">
+            <div class="product-item__box">
+              <div class="star" data-rateyo-rating="4"></div>
+              <h4 class="product-item__title">White Polo Men’s T-Shirt</h4>
+              <div class="product-item__price">
+                <div class="product-item__new-price">$34.00</div>
+                <div class="product-item__old-price">$27.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-top__item footer-top__contact">
+          <a class="logo footer-top__logo" href="#">
+            <img class="logo__img" src="images/logo.png" alt="logo">
+          </a>
+          <a class="footer-top__address" href="#">
+            No. 342 - London Oxford Street,
+          012 United States
+        </a>
+          <a class="footer-top__email" href="mailto:Youremail@gmail.com">Youremail@gmail.com</a>
+          <a class="footer-top__phone" href="tel:+02838388393">+0283 838 8393</a>
+          <ul class="footer-top__social-list">
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#google"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a class="footer-top__social-link" href="#">
+                <svg class="user-nav__link-img">
+                  <use xlink:href="images/sprite.svg#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">Useful Links</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">About Us</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Terms & Conditions</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Contact Us</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Help & Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">My Account</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My Account</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My Cart</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My WIshlist</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Registration</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Check Out</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__item-form">
+          <h6 class="footer-top__title">Subscribe Our Newsletter</h6>
+          <p class="footer-top__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Quis ipsum suspendisse ultrices gravida.
+          </p>
+          <form class="footer-top__form" action="#">
+            <input class="footer-top__form-input" type="email" placeholder="Your email address" required>
+            <button class="footer-top__form-btn" type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">
+          © 2019 CodeAstrology. All Rights Reserved.
+        </p>
+        <div class="footer-bottom__accept">
+          We Accept
+          <img class="footer-bottom__accept-img" src="images/icons/mastercard.png" alt="mastercard">
+          <img class="footer-bottom__accept-img" src="images/icons/visa.png" alt="visa">
+          <img class="footer-bottom__accept-img" src="images/icons/paypal.png" alt="paypal">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
