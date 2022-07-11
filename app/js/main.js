@@ -1,5 +1,4 @@
 $(function() {
-
   $('.blog-page__slider').slick({
     prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="20px" viewBox="0 0 10 20" version="1.1">< g id="surface1" ><path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 7.5 17.5 C 7.179688 17.5 6.859375 17.378906 6.617188 17.132812 L 0.367188 10.882812 C -0.121094 10.394531 -0.121094 9.605469 0.367188 9.117188 L 6.617188 2.867188 C 7.105469 2.378906 7.894531 2.378906 8.382812 2.867188 C 8.871094 3.355469 8.871094 4.144531 8.382812 4.632812 L 3.015625 10 L 8.382812 15.367188 C 8.875 15.855469 8.875 16.648438 8.382812 17.132812 C 8.140625 17.378906 7.820312 17.5 7.5 17.5 Z M 7.5 17.5 " /></></svg ></button>',
     nextArrow: '<button type="button" class="slick-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="20px" viewBox="0 0 10 20" version="1.1">< g id="surface1" ><path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 2.5 17.5 C 2.179688 17.5 1.859375 17.378906 1.617188 17.132812 C 1.128906 16.644531 1.128906 15.855469 1.617188 15.367188 L 6.984375 10 L 1.617188 4.632812 C 1.128906 4.144531 1.128906 3.351562 1.617188 2.867188 C 2.105469 2.375 2.894531 2.375 3.382812 2.867188 L 9.632812 9.117188 C 10.121094 9.601562 10.121094 10.394531 9.632812 10.882812 L 3.382812 17.132812 C 3.140625 17.378906 2.820312 17.5 2.5 17.5 Z M 2.5 17.5 " /></></svg ></button>',
@@ -116,4 +115,3 @@ $(function() {
   initializeClock('.promo__clock', deadline);
 
 });
-
